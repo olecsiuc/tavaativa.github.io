@@ -1,0 +1,157 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container para centralizar os conteúdos */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+/* Estilo do botão de voltar */
+.btn-voltar {
+    background-color: #FF7F00; /* Cor laranja */
+    color: #fff; /* Texto branco */
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.btn-voltar:hover {
+    background-color: #FF4500; /* Cor laranja mais escuro ao passar o mouse */
+}
+
+
+header nav ul li a:hover {
+    color: #ff6600;
+}
+
+/* Seções */
+.section-padding {
+    padding: 60px 0;
+}
+
+/* Seção Benefícios */
+.bg-light {
+    background-color: #f9f9f9;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefit {
+    width: 30%;
+    text-align: center;
+}
+
+.benefit h3 {
+    color: #ff6600;
+    margin-bottom: 10px;
+}
+
+.benefit p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Calculadora de IMC */
+.calculator-container {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.calculator-container input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.calculator-container button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.calculator-container button:hover {
+    background-color: #e55b00;
+}
+
+.resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ff6600;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
